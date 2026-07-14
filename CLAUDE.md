@@ -7,7 +7,7 @@
 | パス | 役割 |
 |---|---|
 | `llm_from_scratch/transformer/` | Transformer実装（`attention.py` / `transformer.py` / `utils.py`）。2章ノートブックから参照 |
-| `llm_from_scratch/gpt/` | GPT実装（`model.py` / `dataset.py` / `tokenizer.py` / `trainer.py`）。3章ノートブックから参照 |
+| `llm_from_scratch/gpt/` | GPT実装（`model.py` / `dataset.py` / `tokenizer.py` / `trainer.py`）。実装済みだが現状どの notebook からも未参照（chapter03 は GPT を notebook 内に自己完結で再定義している） |
 | `notebooks/chapter02/`〜`chapter05/` | 各章のノートブック・スクリプト（章構成は README 参照） |
 | `notebooks/chapter04/*.py` | 4章の分散学習スクリプト（`torchrun` / `deepspeed` 起動、notebookではない） |
 | `refs/errors.md` | 書籍の正誤表 |
